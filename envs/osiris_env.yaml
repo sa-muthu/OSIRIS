@@ -1,0 +1,40 @@
+name: osiris
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  # Core language
+  - python=3.11
+
+  # Download
+  - sra-tools>=3.0.0
+  - ncbi-datasets-cli
+
+  # Quality control
+  - fastp
+  - fastqc
+
+  # Alignment
+  - bwa-mem2
+  - samtools>=1.17
+
+  # aDNA damage
+  - mapdamage2
+
+  # Genome utilities
+  - seqkit
+  - bedtools
+
+  # Python libraries for modules 06-08
+  - pyyaml
+  - biopython
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+
+  # R dependencies for mapDamage2
+  - r-base>=4.2
+  - r-ggplot2
+  - bioconductor-rsamtools

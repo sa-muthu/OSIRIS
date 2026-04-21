@@ -1,0 +1,18 @@
+# Large genome/sequencing files — never commit
+results/
+*.fastq
+*.fastq.gz
+*.fna
+*.fna.gz
+*.bam
+*.sam
+*.sra
+*.zip
+*.gz
+
+# Python
+__pycache__/
+*.pyc
+
+# Mac
+.DS_Store

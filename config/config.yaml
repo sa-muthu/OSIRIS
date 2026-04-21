@@ -1,0 +1,26 @@
+# OSIRIS — Old Species Inference and Reconstruction
+#          from Incomplete Sequences
+# Edit this file to run a different species.
+# Everything else in the pipeline stays the same.
+ 
+# --- Species ------------------------------------------------
+species_name: "great_auk"
+species_scientific: "Pinguinus impennis"
+ 
+# --- Data ---------------------------------------------------
+# Extinct species: SRA run accession
+sra_accession: "SRR32453835"
+ 
+# Closest living relative: NCBI genome assembly accession
+reference_accession: "GCA_008658365.1"
+reference_name: "razorbill"
+ 
+# --- System (M3 Pro Mac) ------------------------------------
+threads: 8
+platform: "mac"
+aligner: "bwa-mem2"
+ 
+# --- Biology ------------------------------------------------
+min_read_length: 30       # discard reads shorter than this (bp)
+divergence_rate: 0.05     # expected % divergence from reference
+coverage_threshold: 3     # min read depth to trust a position
