@@ -5,7 +5,7 @@ A modular aDNA reconstruction pipeline for extinct species.
 Reconstructs partial or fragmented ancient genomes using the
 closest living relative as a reference scaffold.
 
-Named after the Egyptian god dismembered and reconstructed —
+Named after the Egyptian god dismembered and reconstructed -
 a fitting metaphor for genome reconstruction from fragments.
 
 ---
